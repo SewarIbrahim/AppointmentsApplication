@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:weightSum="1"
+        android:id="@+id/firstLinearLayout">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="132dp"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Date"
+                android:id="@+id/dateTextView" />
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="53dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TW Code"
+                android:id="@+id/TWCodeTextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Time"
+                android:id="@+id/timeTextView" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Week Number"
+            android:id="@+id/weekNumTextView"
+            android:layout_weight="0.09" />
+
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Calculations"
+            android:id="@+id/textView"
+            android:layout_weight="0.28" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Appointment&apos;s Objectives"
+            android:id="@+id/textView2"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="# First Objective"
+            android:id="@+id/firstObjectiveTextView"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="# Second Objective"
+            android:id="@+id/secondObjectiveTextView"
+            android:layout_weight="0.10" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
